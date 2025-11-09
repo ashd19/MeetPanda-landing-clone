@@ -8,9 +8,9 @@ function SocialProof() {
           <CircleQuestionMark className="w-[12px] h-[13px]" /> Got Questions?
         </div>
       </div>
-      <div className="">
-        <h1 className="text-5xl  font-bold flex">
-          Backed by Our <h1 className="text-blue-700"> Growing Community</h1>
+      <div className="p-5">
+        <h1 className="md:text-5xl text-2xl   font-bold flex">
+          Backed by Our<h1 className="text-blue-700"> Growing Community</h1>
         </h1>
       </div>
       <div>
