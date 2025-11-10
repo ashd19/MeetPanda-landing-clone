@@ -25,7 +25,7 @@ const CASES = [
     authorName: "Rahul Karmakar",
     authorRole: "HR Technologist",
     authorAvatar:
-      "https://images.unsplash.com/photo-1545996124-1f7b9a1f8b9a?w=200&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1654110455429-cf322b40a906?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -44,7 +44,7 @@ function UseCases() {
         <p className="inline-block bg-indigo-50 text-indigo-600 px-3 py-1 rounded-full text-sm mb-4">
           Use cases
         </p>
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
+        <h1 className="text-4xl md:text-4xl font-extrabold mb-4">
           <span className="text-indigo-600">MeetPanda:</span> Built for Every
           Professional
         </h1>
@@ -55,7 +55,7 @@ function UseCases() {
         </p>
       </div>
 
-      <div className="max-w-5xl mx-auto px-6 space-y-8">
+      <div className="max-w-5xl  md:max-w-7xl mx-auto px-6 space-y-8">
         {CASES.map((c) => (
           <article
             key={c.id}
