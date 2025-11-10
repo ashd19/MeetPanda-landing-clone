@@ -12,10 +12,7 @@ export default function Benefits() {
       className="py-16 bg-gray-50 relative"
     >
       <div className="max-w-6xl mx-auto px-6  text-center">
-        <p className=" inline-flex gap-2 bg-indigo-50  text-indigo-600 px-3 py-1 rounded-full text-sm mb-4">
-          <Sparkle width={10} height={10} className="mt-1" />
-          Benefits
-        </p>
+        
         <h2 className="text-4xl md:text-5xl font-extrabold mb-3">
           One <span className="text-indigo-600">Product</span> Many{" "}
           <span className="text-indigo-600">Benefits</span>
