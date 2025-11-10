@@ -97,16 +97,17 @@ export default function Benefits() {
           </div>
         </div>
 
-        {/* Bottom row: AI Summaries + Meeting card */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-          <div className="md:col-span-2 bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-            <h4 className="font-semibold mb-2">
-              AI Summaries &amp; Action Items
-            </h4>
-            <p className="text-gray-500 mb-4">
-              MeetPanda transforms every meeting into transcripts, highlights,
-              and insights you can act on instantly
-            </p>
+        <div className="grid grid-cols-1 md:flex w-full gap-6 mt-6">
+          <div className="md:flex w-full  bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+            <div className="flex flex-col gap-5">
+              <h4 className="font-semibold mb-2">
+                AI Summaries &amp; Action Items
+              </h4>
+              <p className="text-gray-500 mb-4">
+                MeetPanda transforms every meeting into transcripts, highlights,
+                and insights you can act on instantly
+              </p>
+            </div>
             <div className="flex justify-center">
               <img
                 src="https://meetpanda.in/img/home/benefits-summary.svg"
@@ -114,60 +115,8 @@ export default function Benefits() {
               />
             </div>
           </div>
-
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-8 h-8 rounded-full bg-indigo-50 flex items-center justify-center">
-                🐾
-              </div>
-              <div className="font-semibold">MeetPanda</div>
-            </div>
-            <div className="font-medium mb-1">Annual General meeting</div>
-            <div className="text-sm text-gray-500 mb-4">
-              📅 10:00 am - 11:30 am 9th Aug 2025
-            </div>
-            <div className="flex gap-2 mb-4">
-              <span className="px-3 py-1 bg-gray-100 rounded-md text-sm">
-                Transcript
-              </span>
-              <span className="px-3 py-1 bg-gray-200 rounded-md text-sm font-medium">
-                Summary
-              </span>
-              <span className="px-3 py-1 bg-gray-100 rounded-md text-sm">
-                For You
-              </span>
-              <span className="px-3 py-1 bg-gray-100 rounded-md text-sm">
-                Deliverables
-              </span>
-            </div>
-            <div className="mb-2 font-medium text-sm">Opening Remarks</div>
-            <p className="text-gray-600 text-sm">
-              The Chairperson, [Joe], welcomed shareholders, board members,
-              employees, and stakeholders to the Annual General Meeting. The
-              quorum was confirmed, and the meeting was officially called to
-              order.
-            </p>
-          </div>
         </div>
       </div>
     </section>
   );
 }
-
-//  <div className="lg:col-span-2 flex md:flex-row flex-col gap-15 h-fit w-full md:h-full md:w-[1200px] bg-white rounded-xl p-6 shadow-sm border border-gray-100 mt-2">
-//             <div>
-//               <h4 className="font-semibold mb-2">
-//                 AI Summaries &amp; Action Items
-//               </h4>
-//               <p className="text-gray-500">
-//                 MeetPanda transforms every meeting into transcripts, highlights,
-//                 and insights you can act on instantly
-//               </p>
-//             </div>
-//             <div>
-//               <img
-//                 src="https://meetpanda.in/img/home/benefits-summary.svg"
-//                 alt=""
-//               />
-//             </div>
-//           </div>
