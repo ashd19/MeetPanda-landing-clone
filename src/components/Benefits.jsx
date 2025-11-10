@@ -12,7 +12,6 @@ export default function Benefits() {
       className="py-16 bg-gray-50 relative"
     >
       <div className="max-w-6xl mx-auto px-6  text-center">
-        
         <h2 className="text-4xl md:text-5xl font-extrabold mb-3">
           One <span className="text-indigo-600">Product</span> Many{" "}
           <span className="text-indigo-600">Benefits</span>
@@ -23,7 +22,7 @@ export default function Benefits() {
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="max-w-6xl mx-auto px-6 grid grid-cols-1  lg:grid-cols-3 gap-6">
         {/* Left large card */}
         <div className="col-span-1 bg-white rounded-xl p-8 shadow-sm border border-gray-100">
           <h3 className="font-semibold mb-2">Auto-Join &amp; Record</h3>
@@ -98,7 +97,7 @@ export default function Benefits() {
         </div>
 
         {/* Full width below: AI summaries left, MeetPanda card right */}
-        <div className="lg:col-span-2 flex h-full w-[1200px] bg-white rounded-xl p-6 shadow-sm border border-gray-100 mt-2">
+        <div className="lg:col-span-2 flex md:flex-row flex-col gap-15 h-fit w-full md:h-full md:w-[1200px] bg-white rounded-xl p-6 shadow-sm border border-gray-100 mt-2">
           <div>
             <h4 className="font-semibold mb-2">
               AI Summaries &amp; Action Items
