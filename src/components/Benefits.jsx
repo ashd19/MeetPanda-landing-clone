@@ -2,8 +2,16 @@ import { Sparkle } from "lucide-react";
 
 export default function Benefits() {
   return (
-    <section className="py-16 bg-gray-50 relative">
-      <div className="max-w-6xl mx-auto px-6f  text-center">
+    <section
+      style={{
+        backgroundImage: "url('https://meetpanda.in/img/home/benefits-bg.svg')",
+        backgroundSize: "contain",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+      }}
+      className="py-16 bg-gray-50 relative"
+    >
+      <div className="max-w-6xl mx-auto px-6  text-center">
         <p className=" inline-flex gap-2 bg-indigo-50  text-indigo-600 px-3 py-1 rounded-full text-sm mb-4">
           <Sparkle width={10} height={10} className="mt-1" />
           Benefits

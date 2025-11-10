@@ -108,7 +108,7 @@ function Footer() {
           backgroundImage:
             "url('https://meetpanda.in/img/home/primary-logo.svg')",
           backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
+          backgroundRepeat: "no-repeat",                      
           backgroundPosition: "center",
         }}
       />

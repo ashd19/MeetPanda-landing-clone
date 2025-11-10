@@ -81,7 +81,7 @@ export default function GetStarted() {
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
+            <h1 className="text-2xl md:text-4xl w-full font-extrabold  tracking-tight leading-tight mb-4">
               You are <span className="text-indigo-600">One step</span> away
               from
               <br /> Smarter Meetings
