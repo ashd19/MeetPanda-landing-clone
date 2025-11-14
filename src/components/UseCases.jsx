@@ -1,4 +1,6 @@
 import React from "react";
+import CustomButton from "./subcomponents/CustomButton";
+import { TreeDeciduous } from "lucide-react";
 
 const CASES = [
   {
@@ -29,14 +31,6 @@ const CASES = [
   },
 ];
 
-function Tag({ children }) {
-  return (
-    <span className="inline-block text-sm px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-100">
-      {children}
-    </span>
-  );
-}
-
 function UseCases() {
   return (
     <section className="py-16">
@@ -66,7 +60,12 @@ function UseCases() {
 
               <div className="flex flex-wrap gap-2 mb-4">
                 {c.tags.map((t) => (
-                  <Tag key={t}>{t}</Tag>
+                  <span
+                    key={t}
+                    className="inline-block text-sm px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-100"
+                  >
+                    {t}
+                  </span>
                 ))}
               </div>
 
@@ -94,6 +93,26 @@ function UseCases() {
             </div>
           </article>
         ))}
+      </div>
+      <div className="overflow-hidden   mt-10 whitespace-nowrap flex flex-col items-center justify-center gap-5 text-3xl font-bold">
+        <div className="flex gap-1 ">
+          <h1 className="">
+            {" "}
+            No matter your role,{" "}
+            <span className="text-blue-700">MeetPanda adapts</span> to the way{" "}
+            <span className="text-blue-700">you work</span>
+          </h1>
+        </div>
+        <div>
+          <div className="w-full h-[80px]flex">
+            <CustomButton
+              rotationDegree={40}
+              lucideIcon={
+                <TreeDeciduous color="white" height={55} width={55} />
+              }
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
