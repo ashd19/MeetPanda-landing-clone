@@ -31,9 +31,9 @@ function Transcription() {
           alt=""
         /> */}
 
-        <div className="bg-gray-300 h-10 w-[250px]">
+        <div className="bg-gray-300 rounded-2xl h-10 w-[250px]">
           <motion.div
-            className="div bg-[#6366F1] h-full"
+            className="div rounded-2xl bg-[#6366F1] h-full"
             style={{
               width: progressWidth,
               
