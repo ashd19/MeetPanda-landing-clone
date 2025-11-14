@@ -57,11 +57,7 @@ function Workflow() {
         }}
       >
         <div className="flex flex-col items-center gap-5">
-          <img
-            className="w-64 h-64 md:w-[500px] md:h-[450px] object-contain"
-            src="https://meetpanda.in/img/home/workflow.svg"
-            alt=""
-          />
+         
         </div>
       </div>
     </div>

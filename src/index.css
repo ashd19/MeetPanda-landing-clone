@@ -1,1 +1,14 @@
 @import "tailwindcss";
+#firstDiv {
+  border-radius: 30px;
+  height: 45px;
+  width:40px;
+  border: 6px solid lightgray;
+}
+
+#someContainer {
+  overflow-x: hidden;
+  width: 12px;
+  transform: scale(5) rotate(90deg);
+  margin: px;
+}
